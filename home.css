@@ -1,0 +1,74 @@
+
+body {
+  background-image: url(anime2.jpg);
+  background-repeat: no-repeat;
+  overflow: overlay;
+}
+::-webkit-scrollbar {
+  background-color: #333;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color:lightblue;
+  opacity: 0.5;
+}
+
+::-webkit-scrollbar-corner{
+  border-radius: 10px;
+}
+.custom-navbar {
+  background-color: transparent;
+  backdrop-filter: blur(10px);
+  position: relative;
+  padding: 15px 0;
+  text-align: right;
+}
+
+.nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-icon {
+  margin-left: 100px;
+  float: left;
+}
+
+.nav-item {
+  display: inline-block;
+  margin-right: 60px;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-item a:hover {
+  color: #ddd;
+}
+
+.greet {
+  margin-left: 200px;
+  margin-top: 175px;
+}
+.greet h1 {
+  font-size: 80px;
+}
+.greet p {
+  font-size: 40px;
+  margin-top: 20px;
+}
+
+.contact {
+  margin-top: 1000px;
+  
+}
+.contact-t {
+  text-align: center;
+  list-style: none;
+  color: #222;
+}

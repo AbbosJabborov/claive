@@ -1,14 +1,13 @@
 
 body {
-  background-image: url(anime2.jpg);
-  background-repeat: no-repeat;
+  background-color: #242325;
 }
 ::-webkit-scrollbar {
   width: 10px;
 }
 
 ::-webkit-scrollbar-track {
-  background: grey;
+  background: #242325;
 }
 
 
@@ -53,14 +52,14 @@ body {
 }
 
 .container {
-  margin-left: 200px;
+  margin-left: 150px;
   margin-top: 175px;
 }
 .container h1 {
-  font-size: 80px;
+  font-size: 60px;
 }
 .container p {
-  font-size: 40px;
+  font-size: 30px;
   margin-top: 20px;
 }
 
@@ -71,5 +70,5 @@ body {
 .contact-t {
   text-align: center;
   list-style: none;
-  color: #222;
+  color: #d0ddd7;
 }

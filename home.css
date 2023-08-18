@@ -2,6 +2,7 @@ html {
   scroll-behavior: smooth;
 }
 
+
 body {
   background-color: #242325;
   padding-top: 15px;
@@ -21,11 +22,14 @@ body {
   border-radius: 100px;
 }
 
+
 .custom-navbar img{
+  transform: scale(1.4);
   transition: transform 0.2s ease-in;
 }
 
 .nav-icon:hover {
+  transform: scale(1.4);
   content: url("homea.png");
 }
 
@@ -83,6 +87,7 @@ body {
 }
 
 .add-button {
+  margin-top: 20px;
   display: inline-block;
   padding: 10px 20px;
   background-color: transparent;
@@ -118,6 +123,15 @@ body {
 
 .add-button:hover::before {
   left: 0;
+}
+
+.pics-levi {
+  margin-top: -250px;
+  margin-left: 490px;
+}
+.pics-mask {
+  margin-top: -750px;
+  margin-left: 350px;
 }
 
 .contact {

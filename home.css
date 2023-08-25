@@ -3,8 +3,24 @@ html {
 }
 
 
+.cursor {
+  pointer-events: none;
+  
+  &__ball {
+    position: fixed;
+    top: 0;
+    left: 0;
+    mix-blend-mode: difference;
+    z-index: 1000;
+    
+    circle {
+      fill: #f7f8fa;
+    }
+  }      
+} 
+
 body {
-  background-color: #242325;
+  background-color: #151515;
   padding-top: 15px;
 }
 
@@ -13,7 +29,7 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: #242325;
+  background: #272727;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -81,29 +97,21 @@ body {
   width: 100%;
 }
 
-.container {
-  min-height: 100vh;
-  background-image: url(walp.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  margin-left: 150px;
-  margin-top: 175px;
-}
 .box {
   position: absolute;
-  top: 80px;
+  top: 25%;
   left: 120px;
 }
 
-.container h1 {
+.box h1 {
   font-size: 60px;
 }
 
-.container p {
+.box p {
   font-size: 55px;
   margin-top: 20px;
 }
+
 
 .add-button {
   margin-top: 20px;
